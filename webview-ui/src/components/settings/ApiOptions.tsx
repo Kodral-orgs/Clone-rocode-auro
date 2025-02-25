@@ -1,7 +1,7 @@
 import { memo, useCallback, useMemo, useState } from "react"
 import { useDebounce, useEvent } from "react-use"
 import { Checkbox, Dropdown, Pane, type DropdownOption } from "vscrui"
-import { VSCodeLink, VSCodeRadio, VSCodeRadioGroup, VSCodeTextField } from "@vscode/webview-ui-toolkit/react"
+import { VSCodeLink, VSCodeRadio, VSCodeRadioGroup, VSCodeTextField, VSCodeButton } from "@vscode/webview-ui-toolkit/react"
 import { TemperatureControl } from "./TemperatureControl"
 import * as vscodemodels from "vscode"
 
