@@ -1,0 +1,42 @@
+template-file-path: runs-on.yml
+parameters:
+  ECInstanceDetailedMonitoring: 'false'
+  VpcCidrBlock: 10.1.0.0/16
+  CostReportsEnabled: 'true'
+  VpcEndpoints: none
+  AppRegistry: public.ecr.aws/c5h5o9k1/runs-on/runs-on
+  RunnerDefaultDiskSize: '40'
+  RunnerCustomTags: ''
+  DefaultAdmins: ''
+  CostAllocationTag: stack
+  VpcFlowLogRetentionInDays: '7'
+  DefaultPermissionBoundaryArn: ''
+  AlertTopicSubscriptionHttpsEndpoint: ''
+  Ipv6Enabled: 'false'
+  RunnerLargeVolumeThroughput: '750'
+  VpcCidrSubnetBits: '12'
+  NatGatewayAvailability: SingleAZ
+  EncryptEbs: 'false'
+  SSHAllowed: 'true'
+  Private: 'false'
+  VpcFlowLogS3BucketArn: ''
+  AppEc2QueueSize: '2'
+  SqsQueueOldestMessageThresholdSeconds: '0'
+  Ec2LogRetentionInDays: '7'
+  GithubOrganization: Kodral-orgs
+  AppMemory: '512'
+  ServerPassword: ''
+  EmailAddress: willexmen@gmail.com
+  AppCPU: '256'
+  SpotCircuitBreaker: 2/15/30
+  AppAlarmDailyMinutes: '4000'
+  RunnerDefaultVolumeThroughput: '400'
+  SSHCidrRange: 0.0.0.0/0
+  NatGatewayElasticIPCount: '1'
+  EC2InstanceCustomPolicy: ''
+  VpcFlowLogFormat: ''
+  RunnerLargeDiskSize: '80'
+  Environment: production
+  IntegrationStepSecurityApiKey: ''
+  LicenseKey: 914F6780-41BB-4787-9A5F-E3187ADD6BC9
+tags: {}
