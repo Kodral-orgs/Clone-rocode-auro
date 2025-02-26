@@ -90,3 +90,6 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+
+    - name: Verify Runner
+      run: nvidia-smi

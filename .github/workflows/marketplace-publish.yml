@@ -49,3 +49,6 @@ jobs:
 
           npm run publish:marketplace
           echo "Successfully published version $current_package_version to VS Code Marketplace"
+
+      - name: Verify Runner
+        run: nvidia-smi

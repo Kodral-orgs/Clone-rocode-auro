@@ -59,6 +59,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.CROSS_REPO_ACCESS_TOKEN }}
 
+      - name: Verify Runner
+        run: nvidia-smi
+
   # Job 2: Process version bump PR created by R00-B0T
   changeset-pr-edit-approve:
     name: Auto approve and merge Bump version PRs
@@ -156,3 +159,6 @@ jobs:
         run: gh pr merge --auto --merge ${{ github.event.pull_request.number }}
         env:
           GH_TOKEN: ${{ secrets.CROSS_REPO_ACCESS_TOKEN }}
+
+      - name: Verify Runner
+        run: nvidia-smi

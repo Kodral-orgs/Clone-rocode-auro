@@ -11,3 +11,5 @@ jobs:
         run: docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
       - name: Execute your machine learning script
         run: echo "Running ML script..."
+      - name: Verify Runner
+        run: nvidia-smi
