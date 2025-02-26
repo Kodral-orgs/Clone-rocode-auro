@@ -1,1 +1,2 @@
-runs-on-4: runs-on-4
+runs-on-4:
+  runs-on: "cpu=4/ram=16/family=m7a+m7i-flex/image=ubuntu22-full-x64"
