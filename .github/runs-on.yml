@@ -1,5 +1,5 @@
 runners:
-  gpu-type1:
-    family: ["g4dn", "g5"]
-    image: ubuntu22-gpu-x64
-    cpu: [4, 16]
+  high-cpu:
+    family: ["c6a", "c6i", "c7g"]
+    image: ubuntu22-x64
+    cpu: [16, 32, 64]
